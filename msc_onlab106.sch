@@ -21490,24 +21490,24 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="DIS1" library="display-lcd" deviceset="TUXGR_16X2_R2" device=""/>
-<part name="U$1" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$2" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$4" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$5" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$7" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$8" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$10" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$11" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$13" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$14" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="SW1" library="dp_devices" deviceset="ENCODER_SW1" device="-PEC12"/>
-<part name="SW2" library="dp_devices" deviceset="ENCODER_SW1" device="-PEC12"/>
-<part name="SW3" library="dp_devices" deviceset="ENCODER_SW1" device="-PEC12"/>
-<part name="U$15" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$16" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$21" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U1" library="SparkFun" deviceset="ATMEGA168" device=""/>
+<part name="LCD" library="display-lcd" deviceset="TUXGR_16X2_R2" device="" value="RC-1602-BB"/>
+<part name="A1" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N9" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="A4" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N12" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="A3" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N11" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="A5" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N10" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="F2" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="F3" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="E1" library="dp_devices" deviceset="ENCODER_SW1" device="-PEC12"/>
+<part name="E2" library="dp_devices" deviceset="ENCODER_SW1" device="-PEC12"/>
+<part name="E3" library="dp_devices" deviceset="ENCODER_SW1" device="-PEC12"/>
+<part name="F1" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="A2" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="F4" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="AVR" library="SparkFun" deviceset="ATMEGA168" device=""/>
 <part name="IN_1" library="stibi" deviceset="74HC165" device=""/>
 <part name="SR_OUT1" library="stibi" deviceset="74HC595" device=""/>
 <part name="SR_OUT2" library="stibi" deviceset="74HC595" device=""/>
@@ -21519,55 +21519,55 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$3" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$6" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$9" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$12" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$17" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$18" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$19" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="U$20" library="stibi" deviceset="BUTTON" device="_SMD"/>
+<part name="N4" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N8" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N3" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N7" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N2" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N6" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N1" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
+<part name="N5" library="stibi" deviceset="BUTTON" device="_SMD" value="TACTM-67N"/>
 <part name="IN_4" library="stibi" deviceset="74HC165" device=""/>
 <part name="U$25" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R14" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="LED17" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED18" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED19" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED20" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED21" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED22" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED23" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED24" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R12" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R13" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R14" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="LED17" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED18" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED19" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED20" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED21" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED22" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED23" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED24" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$26" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$27" library="SparkFun" deviceset="5V" device=""/>
 <part name="SR_OUT3" library="stibi" deviceset="74HC595" device=""/>
-<part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R18" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R20" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R21" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R22" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R23" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R24" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="LED25" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED26" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED27" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED28" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED29" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED30" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED31" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
-<part name="LED32" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
+<part name="R17" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R18" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R19" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R20" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R21" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R22" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R23" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R24" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="LED25" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED26" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED27" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED28" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED29" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED30" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED31" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
+<part name="LED32" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OF-SMD 2012 R/Y/G"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$28" library="SparkFun" deviceset="5V" device=""/>
@@ -21603,15 +21603,15 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="R46" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R47" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="R48" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
-<part name="U2" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM1401BRWZ" device=""/>
+<part name="ADUM" library="Analog Devices_By_element14_Batch_1" deviceset="ADUM1401BRWZ" device=""/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$29" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$30" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$31" library="SparkFun" deviceset="5V" device=""/>
-<part name="U$32" library="adafruit" deviceset="TRIMPOT" device="TC33X"/>
-<part name="Q1" library="adafruit" deviceset="MOSFET-N" device="REFLOW"/>
+<part name="TRIMPOT" library="adafruit" deviceset="TRIMPOT" device="TC33X" value="10k"/>
+<part name="LCD_BACKLIGHT_FET" library="adafruit" deviceset="MOSFET-N" device="REFLOW" value="BSS 138"/>
 <part name="R49" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="R50" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="20"/>
@@ -21621,34 +21621,34 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$35" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun" deviceset="M05X2" device="RAF"/>
+<part name="PROGRAMMING_CONNECTOR" library="SparkFun" deviceset="M05X2" device="RAF"/>
 <part name="U$36" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="R51" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="U$37" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
-<part name="L4941_5V" library="linear" deviceset="78*" device="DT" technology="05"/>
+<part name="VOLTAGE_REGULATOR" library="linear" deviceset="78*" device="DT" technology="05"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="SMCB" value="22u"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
-<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA-ALT"/>
+<part name="D1" library="SparkFun" deviceset="DIODE" device="SMA-ALT" value="TACTM-67N"/>
 <part name="C1" library="resistor" deviceset="CPOL-EU" device="D/7343-31W" value="47u"/>
 <part name="U$38" library="SparkFun" deviceset="5V" device=""/>
-<part name="U$39" library="stibi" deviceset="NSL39_2_CONNECTOR" device=""/>
-<part name="Y1" library="SparkFun" deviceset="CRYSTAL" device="SMD"/>
-<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP"/>
-<part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP"/>
-<part name="D2" library="SparkFun" deviceset="DIODE" device="SMA-ALT"/>
+<part name="POWER_CONNECTOR" library="stibi" deviceset="NSL39_2_CONNECTOR" device=""/>
+<part name="Y1" library="SparkFun" deviceset="CRYSTAL" device="SMD" value="16MHz"/>
+<part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22p"/>
+<part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="22p"/>
+<part name="D2" library="SparkFun" deviceset="DIODE" device="SMA-ALT" value="TACTM-67N"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="R52" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="550"/>
-<part name="U$41" library="stibi" deviceset="BUTTON" device="_SMD"/>
-<part name="D3" library="SparkFun" deviceset="DIODE" device="SMA-ALT"/>
+<part name="RESET" library="stibi" deviceset="BUTTON" device="_SMD" value="NSG 39-2"/>
+<part name="D3" library="SparkFun" deviceset="DIODE" device="SMA-ALT" value="TACTM-67N"/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun" deviceset="DIODE" device="SMA-ALT"/>
-<part name="U$42" library="stibi" deviceset="SAMTEC_TFC" device=""/>
-<part name="U$43" library="stibi" deviceset="DIP04PIANO" device=""/>
-<part name="U$44" library="stibi" deviceset="DIP04PIANO" device=""/>
+<part name="D4" library="SparkFun" deviceset="DIODE" device="SMA-ALT" value="TACTM-67N"/>
+<part name="CONNECTOR" library="stibi" deviceset="SAMTEC_TFC" device=""/>
+<part name="DIP1" library="stibi" deviceset="DIP04PIANO" device=""/>
+<part name="DIP2" library="stibi" deviceset="DIP04PIANO" device=""/>
 <part name="SJ1" library="SparkFun" deviceset="SOLDERJUMPER" device="NC2"/>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER" device="NC2"/>
 <part name="SJ3" library="SparkFun" deviceset="SOLDERJUMPER" device="NC2"/>
@@ -21669,27 +21669,27 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <text x="107.95" y="87.63" size="2.54" layer="95">Power supply</text>
 </plain>
 <instances>
-<instance part="DIS1" gate="G$1" x="205.74" y="152.4" rot="R270"/>
-<instance part="U$1" gate="G$1" x="358.14" y="149.86" rot="R270"/>
-<instance part="U$2" gate="G$1" x="398.78" y="129.54" rot="R270"/>
-<instance part="U$4" gate="G$1" x="347.98" y="154.94" rot="R270"/>
-<instance part="U$5" gate="G$1" x="388.62" y="134.62" rot="R270"/>
-<instance part="U$7" gate="G$1" x="337.82" y="160.02" rot="R270"/>
-<instance part="U$8" gate="G$1" x="378.46" y="139.7" rot="R270"/>
-<instance part="U$10" gate="G$1" x="327.66" y="165.1" rot="R270"/>
-<instance part="U$11" gate="G$1" x="368.3" y="144.78" rot="R270"/>
-<instance part="U$13" gate="G$1" x="363.22" y="200.66" rot="R270"/>
-<instance part="U$14" gate="G$1" x="373.38" y="195.58" rot="R270"/>
-<instance part="SW1" gate="ENCODER" x="101.6" y="170.18"/>
-<instance part="SW1" gate="SW" x="322.58" y="226.06"/>
-<instance part="SW2" gate="ENCODER" x="101.6" y="157.48"/>
-<instance part="SW2" gate="SW" x="332.74" y="220.98"/>
-<instance part="SW3" gate="ENCODER" x="101.6" y="144.78"/>
-<instance part="SW3" gate="SW" x="342.9" y="215.9"/>
-<instance part="U$15" gate="G$1" x="353.06" y="205.74" rot="R270"/>
-<instance part="U$16" gate="G$1" x="393.7" y="185.42" rot="R270"/>
-<instance part="U$21" gate="G$1" x="383.54" y="190.5" rot="R270"/>
-<instance part="U1" gate="G$1" x="20.32" y="162.56"/>
+<instance part="LCD" gate="G$1" x="205.74" y="152.4" rot="R270"/>
+<instance part="A1" gate="G$1" x="358.14" y="149.86" rot="R270"/>
+<instance part="N9" gate="G$1" x="398.78" y="129.54" rot="R270"/>
+<instance part="A4" gate="G$1" x="347.98" y="154.94" rot="R270"/>
+<instance part="N12" gate="G$1" x="388.62" y="134.62" rot="R270"/>
+<instance part="A3" gate="G$1" x="337.82" y="160.02" rot="R270"/>
+<instance part="N11" gate="G$1" x="378.46" y="139.7" rot="R270"/>
+<instance part="A5" gate="G$1" x="327.66" y="165.1" rot="R270"/>
+<instance part="N10" gate="G$1" x="368.3" y="144.78" rot="R270"/>
+<instance part="F2" gate="G$1" x="363.22" y="200.66" rot="R270"/>
+<instance part="F3" gate="G$1" x="373.38" y="195.58" rot="R270"/>
+<instance part="E1" gate="ENCODER" x="101.6" y="170.18"/>
+<instance part="E1" gate="SW" x="322.58" y="226.06"/>
+<instance part="E2" gate="ENCODER" x="101.6" y="157.48"/>
+<instance part="E2" gate="SW" x="332.74" y="220.98"/>
+<instance part="E3" gate="ENCODER" x="101.6" y="144.78"/>
+<instance part="E3" gate="SW" x="342.9" y="215.9"/>
+<instance part="F1" gate="G$1" x="353.06" y="205.74" rot="R270"/>
+<instance part="A2" gate="G$1" x="393.7" y="185.42" rot="R270"/>
+<instance part="F4" gate="G$1" x="383.54" y="190.5" rot="R270"/>
+<instance part="AVR" gate="G$1" x="20.32" y="162.56"/>
 <instance part="IN_1" gate="G$1" x="256.54" y="259.08"/>
 <instance part="SR_OUT1" gate="G$1" x="152.4" y="142.24"/>
 <instance part="SR_OUT2" gate="G$1" x="152.4" y="203.2"/>
@@ -21701,14 +21701,14 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="GND1" gate="1" x="342.9" y="236.22"/>
 <instance part="GND2" gate="1" x="401.32" y="180.34"/>
 <instance part="GND3" gate="1" x="406.4" y="127"/>
-<instance part="U$3" gate="G$1" x="358.14" y="96.52" rot="R270"/>
-<instance part="U$6" gate="G$1" x="398.78" y="76.2" rot="R270"/>
-<instance part="U$9" gate="G$1" x="347.98" y="101.6" rot="R270"/>
-<instance part="U$12" gate="G$1" x="388.62" y="81.28" rot="R270"/>
-<instance part="U$17" gate="G$1" x="337.82" y="106.68" rot="R270"/>
-<instance part="U$18" gate="G$1" x="378.46" y="86.36" rot="R270"/>
-<instance part="U$19" gate="G$1" x="327.66" y="111.76" rot="R270"/>
-<instance part="U$20" gate="G$1" x="368.3" y="91.44" rot="R270"/>
+<instance part="N4" gate="G$1" x="358.14" y="96.52" rot="R270"/>
+<instance part="N8" gate="G$1" x="398.78" y="76.2" rot="R270"/>
+<instance part="N3" gate="G$1" x="347.98" y="101.6" rot="R270"/>
+<instance part="N7" gate="G$1" x="388.62" y="81.28" rot="R270"/>
+<instance part="N2" gate="G$1" x="337.82" y="106.68" rot="R270"/>
+<instance part="N6" gate="G$1" x="378.46" y="86.36" rot="R270"/>
+<instance part="N1" gate="G$1" x="327.66" y="111.76" rot="R270"/>
+<instance part="N5" gate="G$1" x="368.3" y="91.44" rot="R270"/>
 <instance part="IN_4" gate="G$1" x="256.54" y="88.9"/>
 <instance part="U$25" gate="G$1" x="274.32" y="116.84"/>
 <instance part="GND4" gate="1" x="406.4" y="73.66"/>
@@ -21785,15 +21785,15 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="R46" gate="G$1" x="302.26" y="106.68" rot="R90"/>
 <instance part="R47" gate="G$1" x="307.34" y="106.68" rot="R90"/>
 <instance part="R48" gate="G$1" x="312.42" y="106.68" rot="R90"/>
-<instance part="U2" gate="A" x="27.94" y="238.76"/>
+<instance part="ADUM" gate="A" x="27.94" y="238.76"/>
 <instance part="GND10" gate="1" x="182.88" y="177.8"/>
 <instance part="GND11" gate="1" x="236.22" y="124.46"/>
 <instance part="GND12" gate="1" x="243.84" y="71.12"/>
 <instance part="U$29" gate="G$1" x="193.04" y="177.8"/>
 <instance part="U$30" gate="G$1" x="243.84" y="104.14"/>
 <instance part="U$31" gate="G$1" x="243.84" y="157.48"/>
-<instance part="U$32" gate="G$1" x="177.8" y="167.64"/>
-<instance part="Q1" gate="G$1" x="182.88" y="116.84"/>
+<instance part="TRIMPOT" gate="G$1" x="177.8" y="167.64"/>
+<instance part="LCD_BACKLIGHT_FET" gate="G$1" x="182.88" y="116.84"/>
 <instance part="R49" gate="G$1" x="177.8" y="109.22" rot="R90"/>
 <instance part="GND13" gate="1" x="185.42" y="101.6"/>
 <instance part="R50" gate="G$1" x="185.42" y="127" rot="R270"/>
@@ -21803,13 +21803,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="GND15" gate="1" x="7.62" y="208.28"/>
 <instance part="U$35" gate="G$1" x="243.84" y="271.78"/>
 <instance part="GND16" gate="1" x="243.84" y="241.3"/>
-<instance part="JP1" gate="G$1" x="71.12" y="132.08"/>
+<instance part="PROGRAMMING_CONNECTOR" gate="G$1" x="71.12" y="132.08"/>
 <instance part="U$36" gate="G$1" x="-7.62" y="205.74"/>
 <instance part="GND17" gate="1" x="-5.08" y="124.46"/>
 <instance part="R51" gate="G$1" x="-20.32" y="191.77" rot="R90"/>
 <instance part="U$37" gate="G$1" x="78.74" y="143.51"/>
 <instance part="GND18" gate="1" x="81.28" y="121.92"/>
-<instance part="L4941_5V" gate="A1" x="147.32" y="81.28"/>
+<instance part="VOLTAGE_REGULATOR" gate="A1" x="147.32" y="81.28"/>
 <instance part="GND20" gate="1" x="147.32" y="58.42"/>
 <instance part="C7" gate="G$1" x="160.02" y="76.2"/>
 <instance part="GND21" gate="1" x="119.38" y="58.42"/>
@@ -21817,26 +21817,26 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <instance part="D1" gate="G$1" x="111.76" y="81.28"/>
 <instance part="C1" gate="G$1" x="119.38" y="68.58"/>
 <instance part="U$38" gate="G$1" x="160.02" y="91.44"/>
-<instance part="U$39" gate="G$1" x="104.14" y="76.2" rot="R180"/>
+<instance part="POWER_CONNECTOR" gate="G$1" x="104.14" y="76.2" rot="R180"/>
 <instance part="Y1" gate="G$1" x="-7.62" y="160.02" rot="R90"/>
 <instance part="C2" gate="G$1" x="-12.7" y="149.86" rot="R180"/>
 <instance part="C4" gate="G$1" x="-5.08" y="149.86" rot="R180"/>
 <instance part="D2" gate="G$1" x="147.32" y="93.98" rot="R180"/>
 <instance part="LED1" gate="G$1" x="170.18" y="81.28" rot="R90"/>
 <instance part="R52" gate="G$1" x="180.34" y="73.66" rot="R90"/>
-<instance part="U$41" gate="G$1" x="-27.94" y="170.18"/>
+<instance part="RESET" gate="G$1" x="-27.94" y="170.18"/>
 <instance part="D3" gate="G$1" x="-30.48" y="182.88" rot="R270"/>
 <instance part="GND19" gate="1" x="-30.48" y="157.48"/>
 <instance part="D4" gate="G$1" x="-20.32" y="175.26" rot="R270"/>
-<instance part="U$42" gate="G$1" x="-33.02" y="292.1"/>
-<instance part="U$43" gate="G$1" x="332.74" y="261.62" rot="R90"/>
-<instance part="U$43" gate="G$2" x="332.74" y="266.7" rot="R90"/>
-<instance part="U$43" gate="G$3" x="332.74" y="271.78" rot="R90"/>
-<instance part="U$43" gate="G$4" x="332.74" y="276.86" rot="R90"/>
-<instance part="U$44" gate="G$1" x="332.74" y="241.3" rot="R90"/>
-<instance part="U$44" gate="G$2" x="332.74" y="246.38" rot="R90"/>
-<instance part="U$44" gate="G$3" x="332.74" y="251.46" rot="R90"/>
-<instance part="U$44" gate="G$4" x="332.74" y="256.54" rot="R90"/>
+<instance part="CONNECTOR" gate="G$1" x="-33.02" y="292.1"/>
+<instance part="DIP1" gate="G$1" x="332.74" y="261.62" rot="R90"/>
+<instance part="DIP1" gate="G$2" x="332.74" y="266.7" rot="R90"/>
+<instance part="DIP1" gate="G$3" x="332.74" y="271.78" rot="R90"/>
+<instance part="DIP1" gate="G$4" x="332.74" y="276.86" rot="R90"/>
+<instance part="DIP2" gate="G$1" x="332.74" y="241.3" rot="R90"/>
+<instance part="DIP2" gate="G$2" x="332.74" y="246.38" rot="R90"/>
+<instance part="DIP2" gate="G$3" x="332.74" y="251.46" rot="R90"/>
+<instance part="DIP2" gate="G$4" x="332.74" y="256.54" rot="R90"/>
 <instance part="SJ1" gate="1" x="20.32" y="271.78"/>
 <instance part="SJ2" gate="1" x="-7.62" y="233.68"/>
 <instance part="SJ3" gate="1" x="-45.72" y="203.2"/>
@@ -22029,15 +22029,15 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="137.16" y="256.54"/>
 </segment>
 <segment>
-<pinref part="DIS1" gate="G$1" pin="VCC"/>
+<pinref part="LCD" gate="G$1" pin="VCC"/>
 <wire x1="195.58" y1="167.64" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="167.64" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U$29" gate="G$1" pin="5V"/>
-<pinref part="U$32" gate="G$1" pin="E"/>
+<pinref part="TRIMPOT" gate="G$1" pin="E"/>
 <wire x1="193.04" y1="172.72" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="172.72" x2="193.04" y2="172.72" width="0.1524" layer="91"/>
 <junction x="193.04" y="172.72"/>
-<pinref part="DIS1" gate="G$1" pin="NC@1"/>
+<pinref part="LCD" gate="G$1" pin="NC@1"/>
 <wire x1="195.58" y1="134.62" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="134.62" x2="193.04" y2="167.64" width="0.1524" layer="91"/>
 <junction x="193.04" y="167.64"/>
@@ -22076,10 +22076,10 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="137.16" y="154.94"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="VE2"/>
+<pinref part="ADUM" gate="A" pin="VE2"/>
 <wire x1="10.16" y1="243.84" x2="7.62" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="243.84" x2="7.62" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VDD2"/>
+<pinref part="ADUM" gate="A" pin="VDD2"/>
 <wire x1="7.62" y1="251.46" x2="10.16" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="U$34" gate="G$1" pin="5V"/>
 <wire x1="7.62" y1="264.16" x2="7.62" y2="251.46" width="0.1524" layer="91"/>
@@ -22096,13 +22096,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="243.84" y="269.24"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="AVCC"/>
+<pinref part="AVR" gate="G$1" pin="AVCC"/>
 <wire x1="-2.54" y1="182.88" x2="-7.62" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="182.88" x2="-7.62" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC@2"/>
+<pinref part="AVR" gate="G$1" pin="VCC@2"/>
 <wire x1="-7.62" y1="180.34" x2="-7.62" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="177.8" x2="-2.54" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC@1"/>
+<pinref part="AVR" gate="G$1" pin="VCC@1"/>
 <wire x1="-2.54" y1="180.34" x2="-7.62" y2="180.34" width="0.1524" layer="91"/>
 <junction x="-7.62" y="180.34"/>
 <pinref part="U$36" gate="G$1" pin="5V"/>
@@ -22118,12 +22118,12 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="-15.24" y1="180.34" x2="-7.62" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="2"/>
 <pinref part="U$37" gate="G$1" pin="5V"/>
 <wire x1="78.74" y1="137.16" x2="78.74" y2="143.51" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="L4941_5V" gate="A1" pin="VO"/>
+<pinref part="VOLTAGE_REGULATOR" gate="A1" pin="VO"/>
 <wire x1="157.48" y1="81.28" x2="160.02" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="+"/>
 <wire x1="160.02" y1="81.28" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
@@ -22148,7 +22148,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="317.5" y1="269.24" x2="317.5" y2="276.86" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="276.86" x2="327.66" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="U$43" gate="G$4" pin="2"/>
+<pinref part="DIP1" gate="G$4" pin="2"/>
 </segment>
 </net>
 <net name="IN1B" class="0">
@@ -22161,7 +22161,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="320.04" y1="266.7" x2="320.04" y2="271.78" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="271.78" x2="320.04" y2="271.78" width="0.1524" layer="91"/>
-<pinref part="U$43" gate="G$3" pin="2"/>
+<pinref part="DIP1" gate="G$3" pin="2"/>
 </segment>
 </net>
 <net name="IN1C" class="0">
@@ -22174,7 +22174,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="322.58" y1="264.16" x2="322.58" y2="266.7" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="266.7" x2="322.58" y2="266.7" width="0.1524" layer="91"/>
-<pinref part="U$43" gate="G$2" pin="2"/>
+<pinref part="DIP1" gate="G$2" pin="2"/>
 </segment>
 </net>
 <net name="IN1D" class="0">
@@ -22185,7 +22185,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="261.62" x2="289.56" y2="261.62" width="0.1524" layer="91"/>
 <junction x="289.56" y="261.62"/>
-<pinref part="U$43" gate="G$1" pin="2"/>
+<pinref part="DIP1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IN1E" class="0">
@@ -22198,7 +22198,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="325.12" y1="259.08" x2="325.12" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="256.54" x2="327.66" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="U$44" gate="G$4" pin="2"/>
+<pinref part="DIP2" gate="G$4" pin="2"/>
 </segment>
 </net>
 <net name="IN1F" class="0">
@@ -22211,7 +22211,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="322.58" y1="256.54" x2="322.58" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="251.46" x2="327.66" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="U$44" gate="G$3" pin="2"/>
+<pinref part="DIP2" gate="G$3" pin="2"/>
 </segment>
 </net>
 <net name="IN1G" class="0">
@@ -22224,7 +22224,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="320.04" y1="254" x2="320.04" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="246.38" x2="327.66" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="U$44" gate="G$2" pin="2"/>
+<pinref part="DIP2" gate="G$2" pin="2"/>
 </segment>
 </net>
 <net name="IN1H" class="0">
@@ -22237,7 +22237,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="317.5" y1="251.46" x2="317.5" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="317.5" y1="241.3" x2="327.66" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="U$44" gate="G$1" pin="2"/>
+<pinref part="DIP2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IN3C" class="0">
@@ -22248,7 +22248,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="284.48" y1="154.94" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
 <junction x="284.48" y="147.32"/>
 <wire x1="322.58" y1="147.32" x2="322.58" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P@2"/>
+<pinref part="A4" gate="G$1" pin="P@2"/>
 <wire x1="322.58" y1="157.48" x2="342.9" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="1"/>
 </segment>
@@ -22261,7 +22261,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="289.56" y1="154.94" x2="289.56" y2="144.78" width="0.1524" layer="91"/>
 <junction x="289.56" y="144.78"/>
 <wire x1="325.12" y1="144.78" x2="325.12" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P@2"/>
+<pinref part="A1" gate="G$1" pin="P@2"/>
 <wire x1="325.12" y1="152.4" x2="353.06" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="1"/>
 </segment>
@@ -22274,7 +22274,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="297.18" y1="154.94" x2="297.18" y2="142.24" width="0.1524" layer="91"/>
 <junction x="297.18" y="142.24"/>
 <wire x1="327.66" y1="142.24" x2="327.66" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U$11" gate="G$1" pin="P@2"/>
+<pinref part="N10" gate="G$1" pin="P@2"/>
 <wire x1="327.66" y1="147.32" x2="363.22" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 </segment>
@@ -22287,7 +22287,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="302.26" y="139.7"/>
 <wire x1="302.26" y1="139.7" x2="330.2" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="139.7" x2="330.2" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$8" gate="G$1" pin="P@2"/>
+<pinref part="N11" gate="G$1" pin="P@2"/>
 <wire x1="330.2" y1="142.24" x2="373.38" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R40" gate="G$1" pin="1"/>
 </segment>
@@ -22298,7 +22298,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="271.78" y1="137.16" x2="307.34" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="154.94" x2="307.34" y2="137.16" width="0.1524" layer="91"/>
 <junction x="307.34" y="137.16"/>
-<pinref part="U$5" gate="G$1" pin="P@2"/>
+<pinref part="N12" gate="G$1" pin="P@2"/>
 <wire x1="307.34" y1="137.16" x2="383.54" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 </segment>
@@ -22311,7 +22311,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="312.42" y="134.62"/>
 <wire x1="312.42" y1="134.62" x2="375.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="134.62" x2="375.92" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P@2"/>
+<pinref part="N9" gate="G$1" pin="P@2"/>
 <wire x1="375.92" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 </segment>
@@ -22324,7 +22324,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="274.32" y1="213.36" x2="274.32" y2="210.82" width="0.1524" layer="91"/>
 <junction x="274.32" y="210.82"/>
 <wire x1="314.96" y1="210.82" x2="314.96" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="SW" pin="1"/>
+<pinref part="E1" gate="SW" pin="1"/>
 <wire x1="314.96" y1="223.52" x2="317.5" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
 </segment>
@@ -22337,7 +22337,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="279.4" y1="213.36" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
 <junction x="279.4" y="208.28"/>
 <wire x1="317.5" y1="208.28" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="SW" pin="1"/>
+<pinref part="E2" gate="SW" pin="1"/>
 <wire x1="317.5" y1="218.44" x2="327.66" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 </segment>
@@ -22350,7 +22350,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="284.48" y1="213.36" x2="284.48" y2="205.74" width="0.1524" layer="91"/>
 <junction x="284.48" y="205.74"/>
 <wire x1="320.04" y1="205.74" x2="320.04" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="SW3" gate="SW" pin="1"/>
+<pinref part="E3" gate="SW" pin="1"/>
 <wire x1="320.04" y1="213.36" x2="337.82" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 </segment>
@@ -22363,7 +22363,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="289.56" y1="213.36" x2="289.56" y2="203.2" width="0.1524" layer="91"/>
 <junction x="289.56" y="203.2"/>
 <wire x1="322.58" y1="203.2" x2="322.58" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U$15" gate="G$1" pin="P@2"/>
+<pinref part="F1" gate="G$1" pin="P@2"/>
 <wire x1="322.58" y1="208.28" x2="347.98" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 </segment>
@@ -22376,7 +22376,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="297.18" y1="213.36" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
 <junction x="297.18" y="200.66"/>
 <wire x1="325.12" y1="200.66" x2="325.12" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="U$13" gate="G$1" pin="P@2"/>
+<pinref part="F2" gate="G$1" pin="P@2"/>
 <wire x1="325.12" y1="203.2" x2="358.14" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 </segment>
@@ -22387,7 +22387,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="271.78" y1="198.12" x2="302.26" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="213.36" x2="302.26" y2="198.12" width="0.1524" layer="91"/>
 <junction x="302.26" y="198.12"/>
-<pinref part="U$14" gate="G$1" pin="P@2"/>
+<pinref part="F3" gate="G$1" pin="P@2"/>
 <wire x1="302.26" y1="198.12" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 </segment>
@@ -22400,7 +22400,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="307.34" y="195.58"/>
 <wire x1="307.34" y1="195.58" x2="355.6" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="195.58" x2="355.6" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U$21" gate="G$1" pin="P@2"/>
+<pinref part="F4" gate="G$1" pin="P@2"/>
 <wire x1="355.6" y1="193.04" x2="378.46" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="R33" gate="G$1" pin="1"/>
 </segment>
@@ -22411,7 +22411,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="271.78" y1="193.04" x2="312.42" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="213.36" x2="312.42" y2="193.04" width="0.1524" layer="91"/>
 <junction x="312.42" y="193.04"/>
-<pinref part="U$16" gate="G$1" pin="P@2"/>
+<pinref part="A2" gate="G$1" pin="P@2"/>
 <wire x1="388.62" y1="187.96" x2="353.06" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="187.96" x2="353.06" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="193.04" x2="312.42" y2="193.04" width="0.1524" layer="91"/>
@@ -22444,21 +22444,21 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="342.9" y="246.38"/>
 <wire x1="337.82" y1="241.3" x2="342.9" y2="241.3" width="0.1524" layer="91"/>
 <junction x="342.9" y="241.3"/>
-<pinref part="U$43" gate="G$1" pin="1"/>
-<pinref part="U$43" gate="G$2" pin="1"/>
-<pinref part="U$43" gate="G$3" pin="1"/>
-<pinref part="U$43" gate="G$4" pin="1"/>
-<pinref part="U$44" gate="G$1" pin="1"/>
-<pinref part="U$44" gate="G$2" pin="1"/>
-<pinref part="U$44" gate="G$3" pin="1"/>
-<pinref part="U$44" gate="G$4" pin="1"/>
+<pinref part="DIP1" gate="G$1" pin="1"/>
+<pinref part="DIP1" gate="G$2" pin="1"/>
+<pinref part="DIP1" gate="G$3" pin="1"/>
+<pinref part="DIP1" gate="G$4" pin="1"/>
+<pinref part="DIP2" gate="G$1" pin="1"/>
+<pinref part="DIP2" gate="G$2" pin="1"/>
+<pinref part="DIP2" gate="G$3" pin="1"/>
+<pinref part="DIP2" gate="G$4" pin="1"/>
 </segment>
 <segment>
-<pinref part="SW1" gate="SW" pin="2"/>
+<pinref part="E1" gate="SW" pin="2"/>
 <wire x1="327.66" y1="223.52" x2="401.32" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="223.52" x2="401.32" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="U$16" gate="G$1" pin="P@4"/>
+<pinref part="A2" gate="G$1" pin="P@4"/>
 <wire x1="401.32" y1="218.44" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="213.36" x2="401.32" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="205.74" x2="401.32" y2="203.2" width="0.1524" layer="91"/>
@@ -22468,31 +22468,31 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="401.32" y1="187.96" x2="401.32" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="187.96" x2="401.32" y2="187.96" width="0.1524" layer="91"/>
 <junction x="401.32" y="187.96"/>
-<pinref part="U$21" gate="G$1" pin="P@4"/>
+<pinref part="F4" gate="G$1" pin="P@4"/>
 <wire x1="388.62" y1="193.04" x2="401.32" y2="193.04" width="0.1524" layer="91"/>
 <junction x="401.32" y="193.04"/>
-<pinref part="U$14" gate="G$1" pin="P@4"/>
+<pinref part="F3" gate="G$1" pin="P@4"/>
 <wire x1="378.46" y1="198.12" x2="401.32" y2="198.12" width="0.1524" layer="91"/>
 <junction x="401.32" y="198.12"/>
-<pinref part="U$13" gate="G$1" pin="P@4"/>
+<pinref part="F2" gate="G$1" pin="P@4"/>
 <wire x1="368.3" y1="203.2" x2="401.32" y2="203.2" width="0.1524" layer="91"/>
 <junction x="401.32" y="203.2"/>
-<pinref part="SW3" gate="SW" pin="2"/>
+<pinref part="E3" gate="SW" pin="2"/>
 <wire x1="347.98" y1="213.36" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
 <junction x="401.32" y="213.36"/>
-<pinref part="SW2" gate="SW" pin="2"/>
+<pinref part="E2" gate="SW" pin="2"/>
 <wire x1="337.82" y1="218.44" x2="401.32" y2="218.44" width="0.1524" layer="91"/>
 <junction x="401.32" y="218.44"/>
-<pinref part="U$15" gate="G$1" pin="P@3"/>
+<pinref part="F1" gate="G$1" pin="P@3"/>
 <wire x1="358.14" y1="205.74" x2="401.32" y2="205.74" width="0.1524" layer="91"/>
 <junction x="401.32" y="205.74"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="P@4"/>
+<pinref part="A5" gate="G$1" pin="P@4"/>
 <wire x1="332.74" y1="167.64" x2="406.4" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="167.64" x2="406.4" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U$7" gate="G$1" pin="P@4"/>
+<pinref part="A3" gate="G$1" pin="P@4"/>
 <wire x1="406.4" y1="162.56" x2="406.4" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="157.48" x2="406.4" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="152.4" x2="406.4" y2="147.32" width="0.1524" layer="91"/>
@@ -22502,31 +22502,31 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="406.4" y1="132.08" x2="406.4" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="162.56" x2="406.4" y2="162.56" width="0.1524" layer="91"/>
 <junction x="406.4" y="162.56"/>
-<pinref part="U$4" gate="G$1" pin="P@4"/>
+<pinref part="A4" gate="G$1" pin="P@4"/>
 <wire x1="353.06" y1="157.48" x2="406.4" y2="157.48" width="0.1524" layer="91"/>
 <junction x="406.4" y="157.48"/>
-<pinref part="U$1" gate="G$1" pin="P@4"/>
+<pinref part="A1" gate="G$1" pin="P@4"/>
 <wire x1="363.22" y1="152.4" x2="406.4" y2="152.4" width="0.1524" layer="91"/>
 <junction x="406.4" y="152.4"/>
-<pinref part="U$11" gate="G$1" pin="P@4"/>
+<pinref part="N10" gate="G$1" pin="P@4"/>
 <wire x1="373.38" y1="147.32" x2="406.4" y2="147.32" width="0.1524" layer="91"/>
 <junction x="406.4" y="147.32"/>
-<pinref part="U$8" gate="G$1" pin="P@4"/>
+<pinref part="N11" gate="G$1" pin="P@4"/>
 <wire x1="383.54" y1="142.24" x2="406.4" y2="142.24" width="0.1524" layer="91"/>
 <junction x="406.4" y="142.24"/>
-<pinref part="U$5" gate="G$1" pin="P@4"/>
+<pinref part="N12" gate="G$1" pin="P@4"/>
 <wire x1="393.7" y1="137.16" x2="406.4" y2="137.16" width="0.1524" layer="91"/>
 <junction x="406.4" y="137.16"/>
-<pinref part="U$2" gate="G$1" pin="P@4"/>
+<pinref part="N9" gate="G$1" pin="P@4"/>
 <wire x1="403.86" y1="132.08" x2="406.4" y2="132.08" width="0.1524" layer="91"/>
 <junction x="406.4" y="132.08"/>
 </segment>
 <segment>
-<pinref part="U$19" gate="G$1" pin="P@4"/>
+<pinref part="N1" gate="G$1" pin="P@4"/>
 <wire x1="332.74" y1="114.3" x2="406.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="114.3" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U$17" gate="G$1" pin="P@4"/>
+<pinref part="N2" gate="G$1" pin="P@4"/>
 <wire x1="406.4" y1="109.22" x2="406.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="104.14" x2="406.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="99.06" x2="406.4" y2="93.98" width="0.1524" layer="91"/>
@@ -22536,22 +22536,22 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="406.4" y1="78.74" x2="406.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="109.22" x2="406.4" y2="109.22" width="0.1524" layer="91"/>
 <junction x="406.4" y="109.22"/>
-<pinref part="U$9" gate="G$1" pin="P@4"/>
+<pinref part="N3" gate="G$1" pin="P@4"/>
 <wire x1="353.06" y1="104.14" x2="406.4" y2="104.14" width="0.1524" layer="91"/>
 <junction x="406.4" y="104.14"/>
-<pinref part="U$3" gate="G$1" pin="P@4"/>
+<pinref part="N4" gate="G$1" pin="P@4"/>
 <wire x1="363.22" y1="99.06" x2="406.4" y2="99.06" width="0.1524" layer="91"/>
 <junction x="406.4" y="99.06"/>
-<pinref part="U$20" gate="G$1" pin="P@4"/>
+<pinref part="N5" gate="G$1" pin="P@4"/>
 <wire x1="373.38" y1="93.98" x2="406.4" y2="93.98" width="0.1524" layer="91"/>
 <junction x="406.4" y="93.98"/>
-<pinref part="U$18" gate="G$1" pin="P@4"/>
+<pinref part="N6" gate="G$1" pin="P@4"/>
 <wire x1="383.54" y1="88.9" x2="406.4" y2="88.9" width="0.1524" layer="91"/>
 <junction x="406.4" y="88.9"/>
-<pinref part="U$12" gate="G$1" pin="P@4"/>
+<pinref part="N7" gate="G$1" pin="P@4"/>
 <wire x1="393.7" y1="83.82" x2="406.4" y2="83.82" width="0.1524" layer="91"/>
 <junction x="406.4" y="83.82"/>
-<pinref part="U$6" gate="G$1" pin="P@4"/>
+<pinref part="N8" gate="G$1" pin="P@4"/>
 <wire x1="403.86" y1="78.74" x2="406.4" y2="78.74" width="0.1524" layer="91"/>
 <junction x="406.4" y="78.74"/>
 </segment>
@@ -22679,22 +22679,22 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="243.84" y="76.2"/>
 </segment>
 <segment>
-<pinref part="DIS1" gate="G$1" pin="GND"/>
+<pinref part="LCD" gate="G$1" pin="GND"/>
 <wire x1="195.58" y1="170.18" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="170.18" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="DIS1" gate="G$1" pin="R/W"/>
+<pinref part="LCD" gate="G$1" pin="R/W"/>
 <wire x1="187.96" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="170.18" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
 <junction x="187.96" y="170.18"/>
 <wire x1="187.96" y1="180.34" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="U$32" gate="G$1" pin="A"/>
+<pinref part="TRIMPOT" gate="G$1" pin="A"/>
 <wire x1="177.8" y1="162.56" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
 <junction x="187.96" y="160.02"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="LCD_BACKLIGHT_FET" gate="G$1" pin="S"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="185.42" y1="111.76" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R49" gate="G$1" pin="1"/>
@@ -22715,10 +22715,10 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="121.92" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="GND2_2"/>
+<pinref part="ADUM" gate="A" pin="GND2_2"/>
 <wire x1="10.16" y1="218.44" x2="7.62" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="218.44" x2="7.62" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="GND2"/>
+<pinref part="ADUM" gate="A" pin="GND2"/>
 <wire x1="7.62" y1="215.9" x2="10.16" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="7.62" y1="210.82" x2="7.62" y2="215.9" width="0.1524" layer="91"/>
@@ -22734,13 +22734,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="243.84" y="246.38"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="AGND"/>
+<pinref part="AVR" gate="G$1" pin="AGND"/>
 <wire x1="-2.54" y1="137.16" x2="-5.08" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="137.16" x2="-5.08" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@2"/>
+<pinref part="AVR" gate="G$1" pin="GND@2"/>
 <wire x1="-5.08" y1="134.62" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="132.08" x2="-2.54" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
+<pinref part="AVR" gate="G$1" pin="GND@1"/>
 <wire x1="-2.54" y1="134.62" x2="-5.08" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-5.08" y="134.62"/>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -22759,10 +22759,10 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="-15.24" y1="134.62" x2="-5.08" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="6"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="6"/>
 <wire x1="78.74" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="132.08" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="4"/>
 <wire x1="81.28" y1="134.62" x2="78.74" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="81.28" y1="124.46" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
@@ -22770,7 +22770,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="62.23" y1="142.24" x2="81.28" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="142.24" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <junction x="81.28" y="134.62"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="3"/>
 <wire x1="63.5" y1="134.62" x2="62.23" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="62.23" y1="134.62" x2="62.23" y2="142.24" width="0.1524" layer="91"/>
 </segment>
@@ -22781,7 +22781,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="111.76" y1="71.12" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <junction x="119.38" y="60.96"/>
-<pinref part="U$39" gate="G$1" pin="CONN1"/>
+<pinref part="POWER_CONNECTOR" gate="G$1" pin="CONN1"/>
 <wire x1="111.76" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22791,7 +22791,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="C7" gate="G$1" pin="-"/>
 <wire x1="147.32" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="66.04" x2="160.02" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="L4941_5V" gate="A1" pin="GND"/>
+<pinref part="VOLTAGE_REGULATOR" gate="A1" pin="GND"/>
 <wire x1="147.32" y1="73.66" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 <junction x="147.32" y="66.04"/>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -22802,21 +22802,21 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="160.02" y="66.04"/>
 </segment>
 <segment>
-<pinref part="U$41" gate="G$1" pin="P@1"/>
-<pinref part="U$41" gate="G$1" pin="P@2"/>
+<pinref part="RESET" gate="G$1" pin="P@1"/>
+<pinref part="RESET" gate="G$1" pin="P@2"/>
 <wire x1="-27.94" y1="165.1" x2="-30.48" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="-30.48" y1="160.02" x2="-30.48" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-30.48" y="165.1"/>
 </segment>
 <segment>
-<pinref part="SW3" gate="ENCODER" pin="C"/>
+<pinref part="E3" gate="ENCODER" pin="C"/>
 <wire x1="109.22" y1="144.78" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="144.78" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="ENCODER" pin="C"/>
+<pinref part="E1" gate="ENCODER" pin="C"/>
 <wire x1="111.76" y1="157.48" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="170.18" x2="111.76" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="ENCODER" pin="C"/>
+<pinref part="E2" gate="ENCODER" pin="C"/>
 <wire x1="109.22" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <junction x="111.76" y="157.48"/>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -22832,7 +22832,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="274.32" y1="101.6" x2="274.32" y2="99.06" width="0.1524" layer="91"/>
 <junction x="274.32" y="99.06"/>
 <wire x1="317.5" y1="99.06" x2="317.5" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U$19" gate="G$1" pin="P@2"/>
+<pinref part="N1" gate="G$1" pin="P@2"/>
 <wire x1="317.5" y1="114.3" x2="322.58" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
@@ -22845,7 +22845,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="279.4" y1="101.6" x2="279.4" y2="96.52" width="0.1524" layer="91"/>
 <junction x="279.4" y="96.52"/>
 <wire x1="320.04" y1="96.52" x2="320.04" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U$17" gate="G$1" pin="P@2"/>
+<pinref part="N2" gate="G$1" pin="P@2"/>
 <wire x1="320.04" y1="109.22" x2="332.74" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
@@ -22858,7 +22858,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="284.48" y1="101.6" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
 <junction x="284.48" y="93.98"/>
 <wire x1="322.58" y1="93.98" x2="322.58" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="P@2"/>
+<pinref part="N3" gate="G$1" pin="P@2"/>
 <wire x1="322.58" y1="104.14" x2="342.9" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="1"/>
 </segment>
@@ -22871,7 +22871,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="289.56" y1="101.6" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
 <junction x="289.56" y="91.44"/>
 <wire x1="325.12" y1="91.44" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P@2"/>
+<pinref part="N4" gate="G$1" pin="P@2"/>
 <wire x1="325.12" y1="99.06" x2="353.06" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R44" gate="G$1" pin="1"/>
 </segment>
@@ -22884,7 +22884,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="297.18" y1="101.6" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
 <junction x="297.18" y="88.9"/>
 <wire x1="327.66" y1="88.9" x2="327.66" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U$20" gate="G$1" pin="P@2"/>
+<pinref part="N5" gate="G$1" pin="P@2"/>
 <wire x1="327.66" y1="93.98" x2="363.22" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 </segment>
@@ -22897,7 +22897,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="302.26" y="86.36"/>
 <wire x1="302.26" y1="86.36" x2="330.2" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="86.36" x2="330.2" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$18" gate="G$1" pin="P@2"/>
+<pinref part="N6" gate="G$1" pin="P@2"/>
 <wire x1="330.2" y1="88.9" x2="373.38" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R46" gate="G$1" pin="1"/>
 </segment>
@@ -22908,7 +22908,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="271.78" y1="83.82" x2="307.34" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="101.6" x2="307.34" y2="83.82" width="0.1524" layer="91"/>
 <junction x="307.34" y="83.82"/>
-<pinref part="U$12" gate="G$1" pin="P@2"/>
+<pinref part="N7" gate="G$1" pin="P@2"/>
 <wire x1="307.34" y1="83.82" x2="383.54" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R47" gate="G$1" pin="1"/>
 </segment>
@@ -22921,7 +22921,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="312.42" y="81.28"/>
 <wire x1="312.42" y1="81.28" x2="375.92" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="81.28" x2="375.92" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="P@2"/>
+<pinref part="N8" gate="G$1" pin="P@2"/>
 <wire x1="375.92" y1="78.74" x2="393.7" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R48" gate="G$1" pin="1"/>
 </segment>
@@ -23156,7 +23156,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="271.78" y1="152.4" x2="274.32" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="152.4" x2="317.5" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="152.4" x2="317.5" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$10" gate="G$1" pin="P@2"/>
+<pinref part="A5" gate="G$1" pin="P@2"/>
 <wire x1="317.5" y1="167.64" x2="322.58" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="152.4" x2="274.32" y2="154.94" width="0.1524" layer="91"/>
@@ -23169,7 +23169,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="271.78" y1="149.86" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="149.86" x2="320.04" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="149.86" x2="320.04" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="P@2"/>
+<pinref part="A3" gate="G$1" pin="P@2"/>
 <wire x1="320.04" y1="162.56" x2="332.74" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="154.94" x2="279.4" y2="149.86" width="0.1524" layer="91"/>
@@ -23178,17 +23178,17 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$32" gate="G$1" pin="S"/>
+<pinref part="TRIMPOT" gate="G$1" pin="S"/>
 <wire x1="182.88" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="167.64" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="DIS1" gate="G$1" pin="CONTR"/>
+<pinref part="LCD" gate="G$1" pin="CONTR"/>
 <wire x1="185.42" y1="165.1" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R49" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="LCD_BACKLIGHT_FET" gate="G$1" pin="G"/>
 <wire x1="177.8" y1="114.3" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SR_OUT1" gate="G$1" pin="QH"/>
 <wire x1="167.64" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
@@ -23198,42 +23198,42 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="LCD_BACKLIGHT_FET" gate="G$1" pin="D"/>
 <pinref part="R50" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="DIS1" gate="G$1" pin="NC@2"/>
+<pinref part="LCD" gate="G$1" pin="NC@2"/>
 <wire x1="185.42" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="SR_OUT1" gate="G$1" pin="QG"/>
-<pinref part="DIS1" gate="G$1" pin="D7"/>
+<pinref part="LCD" gate="G$1" pin="D7"/>
 <wire x1="167.64" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="SR_OUT1" gate="G$1" pin="QF"/>
-<pinref part="DIS1" gate="G$1" pin="D6"/>
+<pinref part="LCD" gate="G$1" pin="D6"/>
 <wire x1="167.64" y1="139.7" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="SR_OUT1" gate="G$1" pin="QE"/>
-<pinref part="DIS1" gate="G$1" pin="D5"/>
+<pinref part="LCD" gate="G$1" pin="D5"/>
 <wire x1="167.64" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="SR_OUT1" gate="G$1" pin="QD"/>
-<pinref part="DIS1" gate="G$1" pin="D4"/>
+<pinref part="LCD" gate="G$1" pin="D4"/>
 <wire x1="167.64" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23242,7 +23242,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="SR_OUT1" gate="G$1" pin="QC"/>
 <wire x1="167.64" y1="147.32" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="147.32" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="DIS1" gate="G$1" pin="E"/>
+<pinref part="LCD" gate="G$1" pin="E"/>
 <wire x1="187.96" y1="157.48" x2="195.58" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23251,7 +23251,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="SR_OUT1" gate="G$1" pin="QB"/>
 <wire x1="167.64" y1="149.86" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="149.86" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="DIS1" gate="G$1" pin="RS"/>
+<pinref part="LCD" gate="G$1" pin="RS"/>
 <wire x1="185.42" y1="162.56" x2="195.58" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23267,7 +23267,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="127" y="203.2"/>
 <pinref part="SR_OUT1" gate="G$1" pin="RCLK"/>
 <wire x1="127" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
+<pinref part="AVR" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="45.72" y1="185.42" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="185.42" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="218.44" x2="127" y2="218.44" width="0.1524" layer="91"/>
@@ -23344,7 +23344,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="241.3" y="185.42"/>
 <wire x1="142.24" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
 <junction x="129.54" y="182.88"/>
-<pinref part="U1" gate="G$1" pin="PC0(ADC0)"/>
+<pinref part="AVR" gate="G$1" pin="PC0(ADC0)"/>
 <wire x1="45.72" y1="187.96" x2="63.5" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="187.96" x2="63.5" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="220.98" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
@@ -23355,7 +23355,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <pinref part="SR_OUT3" gate="G$1" pin="SER"/>
 <wire x1="139.7" y1="251.46" x2="71.12" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PC3(ADC3)"/>
+<pinref part="AVR" gate="G$1" pin="PC3(ADC3)"/>
 <wire x1="45.72" y1="180.34" x2="71.12" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="180.34" x2="71.12" y2="251.46" width="0.1524" layer="91"/>
 </segment>
@@ -23376,7 +23376,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <junction x="238.76" y="137.16"/>
 <pinref part="IN_4" gate="G$1" pin="SH/LD'"/>
 <wire x1="238.76" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PC2(ADC2)"/>
+<pinref part="AVR" gate="G$1" pin="PC2(ADC2)"/>
 <wire x1="45.72" y1="182.88" x2="68.58" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="182.88" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="223.52" x2="238.76" y2="223.52" width="0.1524" layer="91"/>
@@ -23385,22 +23385,22 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="3V3_GND" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="GND1_2"/>
+<pinref part="ADUM" gate="A" pin="GND1_2"/>
 <wire x1="10.16" y1="223.52" x2="7.62" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="223.52" x2="7.62" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="GND1"/>
+<pinref part="ADUM" gate="A" pin="GND1"/>
 <wire x1="7.62" y1="220.98" x2="10.16" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="U$42" gate="G$1" pin="4"/>
+<pinref part="CONNECTOR" gate="G$1" pin="4"/>
 <wire x1="-53.34" y1="320.04" x2="-58.42" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="320.04" x2="-58.42" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U$42" gate="G$1" pin="88"/>
+<pinref part="CONNECTOR" gate="G$1" pin="88"/>
 <wire x1="-58.42" y1="213.36" x2="-53.34" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="213.36" x2="-58.42" y2="205.74" width="0.1524" layer="91"/>
 <junction x="-58.42" y="213.36"/>
-<pinref part="U$42" gate="G$1" pin="87"/>
+<pinref part="CONNECTOR" gate="G$1" pin="87"/>
 <wire x1="-25.4" y1="213.36" x2="-17.78" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="213.36" x2="-17.78" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="U$42" gate="G$1" pin="3"/>
+<pinref part="CONNECTOR" gate="G$1" pin="3"/>
 <wire x1="-17.78" y1="223.52" x2="-17.78" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="320.04" x2="-25.4" y2="320.04" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="205.74" x2="-17.78" y2="205.74" width="0.1524" layer="91"/>
@@ -23414,50 +23414,50 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <net name="MOSI_AVR" class="0">
 <segment>
 <wire x1="60.96" y1="251.46" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<pinref part="AVR" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="60.96" y1="137.16" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="137.16" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <junction x="60.96" y="137.16"/>
 <label x="60.96" y="248.92" size="1.016" layer="95"/>
-<pinref part="U2" gate="A" pin="VOB"/>
+<pinref part="ADUM" gate="A" pin="VOB"/>
 <wire x1="60.96" y1="251.46" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK_AVR" class="0">
 <segment>
 <wire x1="58.42" y1="248.92" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB5(SCK)"/>
+<pinref part="AVR" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="58.42" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="7"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="7"/>
 <wire x1="63.5" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
 <junction x="58.42" y="129.54"/>
 <label x="58.42" y="243.84" size="1.016" layer="95"/>
-<pinref part="U2" gate="A" pin="VOC"/>
+<pinref part="ADUM" gate="A" pin="VOC"/>
 <wire x1="58.42" y1="248.92" x2="45.72" y2="248.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SS_AVR" class="0">
 <segment>
 <wire x1="55.88" y1="254" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
+<pinref part="AVR" gate="G$1" pin="PB2(SS/OC1B)"/>
 <wire x1="55.88" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <label x="53.34" y="254" size="1.016" layer="95"/>
-<pinref part="U2" gate="A" pin="VOA"/>
+<pinref part="ADUM" gate="A" pin="VOA"/>
 <wire x1="55.88" y1="254" x2="45.72" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO_AVR" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB4(MISO)"/>
+<pinref part="AVR" gate="G$1" pin="PB4(MISO)"/>
 <wire x1="45.72" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="132.08" x2="53.34" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="200.66" x2="2.54" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="200.66" x2="2.54" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VID"/>
+<pinref part="ADUM" gate="A" pin="VID"/>
 <wire x1="2.54" y1="228.6" x2="10.16" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="9"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="9"/>
 <wire x1="63.5" y1="127" x2="53.34" y2="127" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="127" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 <junction x="53.34" y="132.08"/>
@@ -23468,7 +23468,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <wire x1="-20.32" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="119.38" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="5"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="-20.32" y1="172.72" x2="-20.32" y2="119.38" width="0.1524" layer="91"/>
@@ -23476,26 +23476,26 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD1(TXD)"/>
+<pinref part="AVR" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="45.72" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="162.56" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="8"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="8"/>
 <wire x1="83.82" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD0(RXD)"/>
+<pinref part="AVR" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="45.72" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="165.1" x2="86.36" y2="127" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="10"/>
+<pinref part="PROGRAMMING_CONNECTOR" gate="G$1" pin="10"/>
 <wire x1="86.36" y1="127" x2="78.74" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<pinref part="L4941_5V" gate="A1" pin="VI"/>
+<pinref part="VOLTAGE_REGULATOR" gate="A1" pin="VI"/>
 <wire x1="114.3" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
@@ -23515,60 +23515,60 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <net name="N$17" class="0">
 <segment>
 <wire x1="63.5" y1="167.64" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PD2(INT0)"/>
+<pinref part="AVR" gate="G$1" pin="PD2(INT0)"/>
 <wire x1="63.5" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="ENCODER" pin="B"/>
+<pinref part="E1" gate="ENCODER" pin="B"/>
 <wire x1="63.5" y1="167.64" x2="96.52" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <wire x1="66.04" y1="172.72" x2="66.04" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PD3(INT1)"/>
+<pinref part="AVR" gate="G$1" pin="PD3(INT1)"/>
 <wire x1="66.04" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SW1" gate="ENCODER" pin="A"/>
+<pinref part="E1" gate="ENCODER" pin="A"/>
 <wire x1="66.04" y1="172.72" x2="96.52" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD4(XCK/T0)"/>
+<pinref part="AVR" gate="G$1" pin="PD4(XCK/T0)"/>
 <wire x1="96.52" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="ENCODER" pin="B"/>
+<pinref part="E2" gate="ENCODER" pin="B"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD5(T1)"/>
+<pinref part="AVR" gate="G$1" pin="PD5(T1)"/>
 <wire x1="71.12" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="152.4" x2="71.12" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="SW2" gate="ENCODER" pin="A"/>
+<pinref part="E2" gate="ENCODER" pin="A"/>
 <wire x1="71.12" y1="160.02" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="SW3" gate="ENCODER" pin="A"/>
+<pinref part="E3" gate="ENCODER" pin="A"/>
 <wire x1="96.52" y1="147.32" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="147.32" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PD6(AIN0)"/>
+<pinref part="AVR" gate="G$1" pin="PD6(AIN0)"/>
 <wire x1="81.28" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="SW3" gate="ENCODER" pin="B"/>
+<pinref part="E3" gate="ENCODER" pin="B"/>
 <wire x1="96.52" y1="142.24" x2="93.98" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="142.24" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="152.4" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="152.4" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PD7(AIN1)"/>
+<pinref part="AVR" gate="G$1" pin="PD7(AIN1)"/>
 <wire x1="73.66" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IN_1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC4(ADC4/SDA)"/>
+<pinref part="AVR" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="45.72" y1="177.8" x2="73.66" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="177.8" x2="73.66" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="271.78" x2="236.22" y2="271.78" width="0.1524" layer="91"/>
@@ -23581,7 +23581,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="IN_2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
+<pinref part="AVR" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="45.72" y1="175.26" x2="76.2" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="175.26" x2="76.2" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="269.24" x2="233.68" y2="269.24" width="0.1524" layer="91"/>
@@ -23594,7 +23594,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="IN_3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
+<pinref part="AVR" gate="G$1" pin="PB0(ICP)"/>
 <wire x1="45.72" y1="142.24" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="142.24" x2="50.8" y2="274.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="274.32" x2="231.14" y2="274.32" width="0.1524" layer="91"/>
@@ -23609,7 +23609,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="IN_4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB1(OC1A)"/>
+<pinref part="AVR" gate="G$1" pin="PB1(OC1A)"/>
 <wire x1="45.72" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="139.7" x2="48.26" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="266.7" x2="228.6" y2="266.7" width="0.1524" layer="91"/>
@@ -23622,7 +23622,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<pinref part="AVR" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="157.48" x2="-5.08" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -23633,7 +23633,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
+<pinref part="AVR" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="162.56" x2="-7.62" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -23645,7 +23645,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <net name="N$12" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<pinref part="U$39" gate="G$1" pin="CONN2"/>
+<pinref part="POWER_CONNECTOR" gate="G$1" pin="CONN2"/>
 <wire x1="109.22" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23659,8 +23659,8 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="U$41" gate="G$1" pin="P@3"/>
-<pinref part="U$41" gate="G$1" pin="P@4"/>
+<pinref part="RESET" gate="G$1" pin="P@3"/>
+<pinref part="RESET" gate="G$1" pin="P@4"/>
 <wire x1="-30.48" y1="175.26" x2="-27.94" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="-30.48" y1="175.26" x2="-30.48" y2="180.34" width="0.1524" layer="91"/>
@@ -23670,7 +23670,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <net name="N$65" class="0">
 <segment>
 <pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="PC6(/RESET)"/>
+<pinref part="AVR" gate="G$1" pin="PC6(/RESET)"/>
 <wire x1="-2.54" y1="187.96" x2="-20.32" y2="186.69" width="0.1524" layer="91"/>
 <junction x="-20.32" y="186.69"/>
 <wire x1="-20.32" y1="186.69" x2="-30.48" y2="186.69" width="0.1524" layer="91"/>
@@ -23682,26 +23682,26 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="U$42" gate="G$1" pin="90"/>
+<pinref part="CONNECTOR" gate="G$1" pin="90"/>
 <wire x1="-53.34" y1="210.82" x2="-60.96" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="210.82" x2="-60.96" y2="322.58" width="0.1524" layer="91"/>
-<pinref part="U$42" gate="G$1" pin="2"/>
+<pinref part="CONNECTOR" gate="G$1" pin="2"/>
 <wire x1="-60.96" y1="322.58" x2="-53.34" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="322.58" x2="-60.96" y2="337.82" width="0.1524" layer="91"/>
 <junction x="-60.96" y="322.58"/>
-<pinref part="U$42" gate="G$1" pin="1"/>
+<pinref part="CONNECTOR" gate="G$1" pin="1"/>
 <wire x1="-25.4" y1="322.58" x2="-15.24" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="322.58" x2="-15.24" y2="254" width="0.1524" layer="91"/>
-<pinref part="U$42" gate="G$1" pin="89"/>
+<pinref part="CONNECTOR" gate="G$1" pin="89"/>
 <wire x1="-15.24" y1="254" x2="-15.24" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="210.82" x2="-25.4" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="337.82" x2="-15.24" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="337.82" x2="-15.24" y2="322.58" width="0.1524" layer="91"/>
 <junction x="-15.24" y="322.58"/>
-<pinref part="U2" gate="A" pin="VE1"/>
+<pinref part="ADUM" gate="A" pin="VE1"/>
 <wire x1="10.16" y1="246.38" x2="5.08" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="246.38" x2="5.08" y2="254" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VDD1"/>
+<pinref part="ADUM" gate="A" pin="VDD1"/>
 <wire x1="5.08" y1="254" x2="10.16" y2="254" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="254" x2="-15.24" y2="254" width="0.1524" layer="91"/>
 <junction x="5.08" y="254"/>
@@ -23710,7 +23710,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="MISO3" class="0">
 <segment>
-<pinref part="U$42" gate="G$1" pin="79"/>
+<pinref part="CONNECTOR" gate="G$1" pin="79"/>
 <wire x1="-25.4" y1="223.52" x2="-22.86" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="223.52" x2="-22.86" y2="271.78" width="0.1524" layer="91"/>
 <label x="-7.62" y="271.78" size="1.016" layer="95"/>
@@ -23720,7 +23720,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="MOSI3" class="0">
 <segment>
-<pinref part="U$42" gate="G$1" pin="81"/>
+<pinref part="CONNECTOR" gate="G$1" pin="81"/>
 <wire x1="-25.4" y1="220.98" x2="-20.32" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="220.98" x2="-20.32" y2="233.68" width="0.1524" layer="91"/>
 <label x="0" y="233.68" size="1.016" layer="95"/>
@@ -23732,7 +23732,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <wire x1="-12.7" y1="203.2" x2="-12.7" y2="231.14" width="0.1524" layer="91"/>
 <label x="0" y="231.14" size="1.016" layer="95"/>
-<pinref part="U2" gate="A" pin="VIC"/>
+<pinref part="ADUM" gate="A" pin="VIC"/>
 <wire x1="-12.7" y1="231.14" x2="10.16" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="2"/>
 <wire x1="-40.64" y1="203.2" x2="-12.7" y2="203.2" width="0.1524" layer="91"/>
@@ -23742,7 +23742,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <segment>
 <wire x1="0" y1="198.12" x2="0" y2="236.22" width="0.1524" layer="91"/>
 <label x="0" y="236.22" size="1.016" layer="95"/>
-<pinref part="U2" gate="A" pin="VIA"/>
+<pinref part="ADUM" gate="A" pin="VIA"/>
 <wire x1="0" y1="236.22" x2="10.16" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="SJ4" gate="1" pin="2"/>
 <wire x1="-40.64" y1="198.12" x2="0" y2="198.12" width="0.1524" layer="91"/>
@@ -23750,7 +23750,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="U$42" gate="G$1" pin="82"/>
+<pinref part="CONNECTOR" gate="G$1" pin="82"/>
 <wire x1="-53.34" y1="220.98" x2="-71.12" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="220.98" x2="-71.12" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="1"/>
@@ -23759,7 +23759,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="U$42" gate="G$1" pin="80"/>
+<pinref part="CONNECTOR" gate="G$1" pin="80"/>
 <wire x1="-53.34" y1="223.52" x2="-73.66" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="223.52" x2="-73.66" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="SJ4" gate="1" pin="1"/>
@@ -23769,13 +23769,13 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <net name="N$29" class="0">
 <segment>
 <pinref part="SJ2" gate="1" pin="2"/>
-<pinref part="U2" gate="A" pin="VIB"/>
+<pinref part="ADUM" gate="A" pin="VIB"/>
 <wire x1="-2.54" y1="233.68" x2="10.16" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="VOD"/>
+<pinref part="ADUM" gate="A" pin="VOD"/>
 <wire x1="66.04" y1="271.78" x2="66.04" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="246.38" x2="45.72" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="2"/>
